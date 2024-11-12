@@ -1,0 +1,12 @@
+# Requirements install on go
+=> go get -u gorm.io/gorm
+=> go get -u gorm.io/driver/mysql
+=> go get -u github.com/gin-gonic/gin
+=> go get -u golang.org/x/crypto/bcrypt
+=> go get -u github.com/golang-jwt/jwt/v4
+=> go get -u github.com/joho/godotenv
+=> go install github.com/githubnemo/CompileDaemon@latest
+
+
+// running build command
+compiledaemon --command="./go-jwt"
